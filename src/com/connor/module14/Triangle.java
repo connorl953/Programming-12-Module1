@@ -5,7 +5,7 @@ public class Triangle extends TwoDShape implements Rotate {
      double side1; //side "A"
      double side2; //side "B"
      double side3; //side "C"
-     double rotation = 0;
+     double rotation;
 
     /**
      * Constructor for Triangle with width and height
@@ -15,6 +15,7 @@ public class Triangle extends TwoDShape implements Rotate {
     public Triangle(double width, double height){
         this.width = width;
         this.height = height;
+        this.rotation = 0;
     }
 
     /**
